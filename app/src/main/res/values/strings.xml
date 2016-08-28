@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dagger talk</string>
+    <string name="dagger_amor_3"><![CDATA[Dagger é amor. <3]]></string>
+    <string name="post_tweet">Post Tweet</string>
+</resources>
