@@ -11,14 +11,4 @@ public class Module {
         return new OkHttpClient();
     }
 
-    @Provides
-    public TwitterAuth provideTwitterAuth(OkHttpClient okHttpClient) {
-        return new TwitterAuth(okHttpClient);
-    }
-
-    @Provides
-    public TwitterApi provideTwitterApi(OkHttpClient okHttpClient, TwitterAuth twitterAuth) {
-        return new TwitterApi(okHttpClient, twitterAuth);
-    }
-
 }
